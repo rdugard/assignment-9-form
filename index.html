@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Edgar Allen Poe</title>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<!-- content goes here. row and columns-->
+<h1>Edgar Allen Poe</h1>
+<p><a href="https://en.wikipedia.org/wiki/Edgar_Allan_Poe" >Edgar Allen Poe</a> is a very famous man. He is mainly known for his morbid works of literature and mysterious death. He had a large influence on literature in his time and is still read today.</p>
+<p>Take a quiz to see how much you know about Edgar Allen Poe.</p>
+<form>
+
+
+  <label for="inputName">Your Name:</label>
+  <input class="form-control" type="text" name="inputName" id="inputName" placeholder="Name">
+
+<!--this gives us a name input-->
+<!--question 1-->
+
+<p>Where was Edgar Allen Poe born?</p>
+<div class="radio">
+  <label>
+    <input type="radio" name="birth" id="birth1" value="London">London
+  </label>
+</div>
+<div class="radio">
+    <label>
+      <input type="radio" name="birth" id="birth2" value="Boston">Boston
+    </label>
+</div>
+<div class="radio">
+    <label>
+      <input type="radio" name="birth" id="birth3" value="New York City">New York City
+    </label>
+</div>
+<div class="radio">
+      <label>
+        <input type="radio" name="birth" id="birth4" value="Quebec">Quebec
+      </label>
+</div>
+
+<!--question 2-->
+<p>Which of the statements are true? Check all that apply</p>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" name="t-f" id="writing1" value="Poe was one of the first well-known American authors to live off of writing alone.">
+    Poe was one of the first well-known American authors to live off of writing alone.
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" name="t-f" id="writing2" value="His first book received little attention; less than 100 copies were printed.">
+    His first book received little attention; less than 100 copies were printed.
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" name="t-f" id="writing3" value="Edgar Allen Poe never married.">
+    Edgar Allen Poe never married.
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" name="t-f" id="writing4" value="The Raven was very unsuccessful for many years and then suddenly became famous.">
+    "The Raven" was very unsuccessful for many years and then suddenly became famous.
+  </label>
+</div>
+<div class="checkbox">
+  <label>
+    <input type="checkbox" name="t-f" id="writing5" value="Poe was more popular in Europe than the United States.">
+    Poe was more popular in Europe than the United States.
+  </label>
+</div>
+
+<p>Finish the sentence. Edgar Allen Poe is a central figure in <label  id="eapanswer"></label>
+<input type="text" id="eapanswer1" > .</p>
+
+<p>What is your favorite work written by Poe?</p>
+<select class="form-control" name="favorite" id="writing">
+  <option value="The Raven">The Raven</option>
+  <option value="Annabell Lee">Annabell Lee</option>
+  <option value="he Tell-Tale Heart">The Tell-Tale Heart</option>
+  <option value="The Bells">The Bells</option>
+  <option value="Lenore">Lenore</option>
+  <option value="The Masque of the Red Death">The Masque of the Red Death</option>
+  <option value="The Black Cat">The Black Cat</option>
+  <option value="None of these">None of these</option>
+</select>
+
+
+<p>How did Poe die?</p>
+  <textarea class="form-control" name="death" rows="4" id="death"></textarea>
+
+<br>
+<input class="btn btn-success" type="submit" value="Submit">
+<input class="btn btn-danger" type="reset" value="Reset">
+
+</form>
+</div>
+</div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
